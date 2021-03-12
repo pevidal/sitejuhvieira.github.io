@@ -11,10 +11,10 @@
    
 
     <ul class="navigation">
-        <a href="Index.html"><li>Página Inicial</li>
+        <a href="index.html"><li>Página Inicial</li>
         </a>
         <a href="Letras.html">
-          <li class="center">LetraS</li>
+          <li class="center">Letras</li>
         </a>
         <a href="Show.html">
           <li>Show</li>
