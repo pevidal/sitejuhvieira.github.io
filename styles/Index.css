@@ -1,0 +1,88 @@
+/* reset de margens */
+* {
+    margin: 0;
+    padding:0;
+}
+
+body, html {
+    width: 100%;
+    
+    font-family: Arial, Tahoma, sans-serif;
+    background: #FFFFFF url("../Imagens/Imagem_Index.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    color: black;
+   
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    background-position: 90%;
+    
+    
+    
+	
+}
+
+ul.navigation {
+  width: auto;
+  height: 40px;
+  position: relative;
+  padding: 0;
+  color: #000000;
+  background-color: #000000;
+  margin: 0;
+    
+  }
+  ul.navigation > a{
+    text-decoration: none;
+  }
+  ul.navigation > a > li {
+    
+    display: inline-block;
+    height: 40px !important;
+    padding: 10px 10px 0px 10px;
+    margin: 0;
+    max-height: 30px;
+    
+  }
+  ul.navigation > a > li {
+    color: #ececec;
+  }
+  
+  @media(max-width:700px){
+    ul.navigation > a > li {    
+      display: inline-block;
+      size: 1rem;
+      height: 3 !important;
+      margin: 0;
+      max-height: 30px; 
+    }
+
+    ul.navigation {
+      width: auto;
+      height: 30px;
+      position: relative;
+      padding: 0;
+      color: #ececec;
+      font-size: 0.8rem;  
+      
+      margin: 0;
+      
+    }
+    div, body, html {      
+      font-family: Arial, Tahoma, sans-serif;
+      background: black url("../Imagens/Imagem_Index_old.jpeg")no-repeat;
+      
+      background-size: auto;
+      background-position-y: 20%;
+      background-position-x: 50%;
+      
+      
+  }
+
+  
+}
+
+    

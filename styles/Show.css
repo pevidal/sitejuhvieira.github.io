@@ -1,0 +1,165 @@
+/* reset de margens */
+* {
+    margin: 0;
+    padding:0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Tahoma, sans-serif;
+    background: black ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 1;
+    
+
+}
+
+/*
+div.video{
+
+  border-radius: 1px;
+  padding-top: 0px;
+  
+
+}
+.video iframe{
+  
+  height:780px;
+  width: 1000px;
+  border-radius:10px 10px 10px 10px ;
+  
+}
+*/
+
+.video-flex { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  padding-top: 0px; 
+  height: 0; 
+  overflow: hidden;
+}
+
+.video-flex iframe, .video-flex object, .video-flex embed {
+  position: absolute; 
+  top: 5%; 
+  left: 15%; 
+  width: 70%; 
+  height: 70%;
+}
+
+ul.navigation {
+    
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  z-index: 2;
+  
+  padding: 0;
+  color: #000000;
+  background-color: #000000;
+  margin: 0;
+    
+    
+  }
+  ul.navigation > a{
+    text-decoration: none;
+    
+  }
+  ul.navigation > a > li {
+    
+    display: inline-block;
+    height: 40px !important;
+    padding: 10px 10px 0px 10px;
+    margin: 0;
+    max-height: 30px;
+    
+    
+  }
+  ul.navigation > a > li {
+    color: #ececec;
+  }
+  
+  @media(max-width:700px){
+
+    div, body, html {      
+      
+      
+      background: black ;
+      background-repeat: no-repeat; 
+      background-position: center;
+      background-attachment: fixed;       
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height:100%;
+      width:100%; 
+      z-index: 1;
+  }
+
+    ul.navigation > a > li {    
+      display: inline-block;
+      size: 1rem;
+      height: 3 !important;
+      margin: 0;
+      max-height: 30px; 
+      
+    }
+
+    ul.navigation {
+      width: 100%;
+      height: 30px;
+      position: fixed;
+      z-index: 2;
+      padding: 0;
+      color: #ececec;
+      font-size: 0.8rem;
+      padding: 0;    
+      background-color: #000000;
+      margin: 0;
+      text-align: center;
+    }
+
+    /*
+    div.video{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      margin:30px 0px
+    }
+    .video iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+    */
+  
+    .video-flex { 
+      position: relative; 
+      padding-bottom: 100%; 
+      padding-top: 0px; 
+      height: 0; 
+      overflow: hidden;
+    }
+    
+    .video-flex iframe, .video-flex object, .video-flex embed {
+      position: absolute; 
+      top: 0px; 
+      left: 0; 
+      width: 100%; 
+      height: 100%;
+    }  
+  }

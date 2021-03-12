@@ -1,0 +1,167 @@
+/* reset de margens */
+* {
+    margin: 0;
+    padding:0;
+}
+
+article.musica1 {
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 1.5rem;
+  padding-right: 60%;
+}
+article.musica2 {
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+  padding-right: 1.5rem;
+  padding-left: 60%;
+  margin-top: -200px;
+}
+article.agradecimentos{
+  color: #ffffff;
+
+}
+
+article.musicabonus {
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+  padding-right: 1.5rem;
+  padding-left: 60%;
+  
+}
+.titulo{
+  color: #ffffff;
+  font-family: "Times New Roman";
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+body, html {
+  width: 100%;
+    
+  font-family: Arial, Tahoma, sans-serif;
+  background: #600001 url("../Imagens/Background_Letras_old.jpg") center;
+  background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    color: black;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    z-index: 1;
+    
+   
+    background-position-x: 10px;
+    background-position-y: 10px;
+
+
+    
+}
+
+ul.navigation {
+
+  width: 100%;
+  height: 40px;  
+  padding: 0;
+  color: #000000;
+  background-color: #000000;
+  margin: 0;
+  position: fixed;
+  z-index: 2;
+    
+    
+  }
+  ul.navigation > a{
+    text-decoration: none;
+  }
+  ul.navigation > a > li {
+    
+    display: inline-block;
+    height: 40px !important;
+    padding: 10px 10px 0px 10px;
+    margin: 0;
+    max-height: 30px;
+    
+  }
+  ul.navigation > a > li {
+    color: #ececec;
+  }
+  
+  @media(max-width:700px){
+    ul.navigation > a > li {    
+      display: inline-block;
+      size: 1rem;
+      height: 3 !important;
+      margin: 0;
+      max-height: 30px; 
+      
+
+    }
+
+    body, html {
+      background: #670001;
+      z-index: 1;
+    }
+
+    ul.navigation {
+      width: 100%;
+      height: 30px;
+      position: fixed;
+  z-index: 2;
+      padding: 0;
+      color: #ececec;
+      font-size: 0.8rem;        
+      margin: 0;
+      
+      
+    }
+    article.musica2 {
+      color: white;
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 0px;
+      padding-left: 0%;
+      padding-right: 0%;
+      font-family: tahoma;
+    }
+    article.musica1 {
+      color: white;
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 0px;
+      padding-left: 0%;
+      padding-right: 0%;
+      font-family: tahoma;
+     
+    }
+    article.musicabonus {
+      color: white;
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 0px;
+      padding-left: 0%;
+      padding-right: 0%;
+     
+    }
+
+    .titulo{
+      color: #ffffff;
+      font-family: "Times New Roman";
+      font-weight: bolder;
+      font-size: 1.2rem;
+    }
+    article.agradecimentos {
+      color: white;
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 0px;
+      padding-left: 0%;
+      padding-right: 0%;
+      font-style: italic;
+      font-style: unset;
+     
+    }
+    
+  }
